@@ -1,0 +1,7 @@
+name: LandsDiscord
+main: me.angeschossen.landsdiscordsrv.LandsDiscordSRV
+version: ${project.version}
+author: Angeschossen
+description: Add DiscordSRV functionality to Lands
+website: https://www.spigotmc.org/resources/53313
+api-version: 1.13

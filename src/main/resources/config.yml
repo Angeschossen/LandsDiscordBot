@@ -1,0 +1,29 @@
+# This is the configuration for the DiscordSRV addon.
+# Please note that you'll need to have Lands installed and setup.
+#
+# Lands: https://www.spigotmc.org/resources/53313
+
+
+# Bot configuration
+bot:
+  # Enter your bot token here.
+  # How to setup a Discord bot: https://discordpy.readthedocs.io/en/latest/discord.html
+  token: 'token'
+  # Name of your Lands Discord Bot
+  name: 'Lands Bot'
+  # Set the status of your Discord Bot
+  status: 'https://www.spigotmc.org/resources/53313/'
+
+# Configure channels
+channels:
+  # Channel which is used for announcements like land creation etc.
+  announcements_list:
+    - '663078668515541002'
+
+# Lands Chat (/Lands chat)
+# This feature requires DiscordSRV to be installed.
+# Download: https://www.spigotmc.org/resources/18494
+land-chat:
+  # Should the bot send a message sent from the land to
+  # the linked Discord user?
+  send-message-to-linked: true
